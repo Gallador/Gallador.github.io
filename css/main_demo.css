@@ -1,0 +1,431 @@
+html {
+	font-family: 'Amatic SC', cursive;
+	font-size: 50px;
+	line-height: 1.5;
+}
+
+/*-- ----------------------------  GRID  ----------------------------------------- */
+.container {
+	width: 1520px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/*.row:after {
+	clear: both;
+	content: "";
+	display: table;
+}*/
+.col-2 {
+	width: 700px;
+	margin-right: 120px;
+	float: left;
+}
+.col-2:last-child {
+	margin-right: 0px;
+}
+.footer_container {
+	font-size: 30px;
+	color: #FFF;
+	display: flex;
+	bottom: 3px;
+	position: absolute;
+}
+
+/*-- ----------------------------  HEADER_MAIN  ---------------------------------- */
+.header_black {
+	background-image: url("../img/pasek_gorny.jpg");
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 124px;
+	width: 1920px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+
+.header_white {
+	background-image: url("../img/header.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	height: 1208px;
+	width: 1520px;
+	color: #000000;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	position: relative;
+}
+.header_gallery {
+	color: #FFF;
+	font-size: 50px;
+	margin-top: 40px;
+	margin-right: 1700px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+}
+.header_about {
+	color: #FFF;
+	font-size: 50px; 
+	margin-top: 40px;
+	margin-left: 1650px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+}
+.header_about a {
+	text-decoration: none;
+	color: #FFF;
+}
+.header_about a:hover {
+	color: #f57778;
+	transition: 0.15s ease-out;
+}
+.header_gallery a {
+	text-decoration: none;
+	color: #FFF;
+}
+.header_gallery a:hover {
+	color: #f57778;
+	transition: 0.15s ease-out;
+}
+
+/*-- ----------------------------  HEADER_ABOUT_ME  ------------------------------ */
+.about_me_header {
+	background-image: url("../img/pasek_gorny.jpg");
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	width: 1920px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+}
+.about_me_header_name { 
+	color: #FFF;
+	font-size: 50px;
+	top: 8px;
+	left: 870px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+}
+.about_me_back {
+	font-size: 40px;
+	margin-top: -80px;
+	left: 35px;
+	position: absolute;
+}
+
+.about_me_back a {
+	text-decoration: none;
+	color: #FFF;
+}
+.about_me_back a:hover {
+	color: #f57778;
+	transition: 0.15s ease-out;
+}
+
+/* ----------------------------  GALLERY_MAIN_HEADER  ------------------------------------ */
+.gallery_main_header_bg {
+	background-image: url("../img/pasek_gorny.jpg");
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	width: 1920px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+}
+.gallery_main_header_text {
+	color: #FFF;
+	font-size: 60px;
+	top: 8px;
+	left: 850px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+}
+/* ----------------------------  MIDDLE_MAIN  ------------------------------------ */
+.middle_black {
+	background-image: url("../img/pasek_centralny.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	width: 1920px;
+	height: 100px;
+	color: #000000;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.middle_white {
+	background-image: url("../img/middle_bg.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	width: 1520px;
+	height: 1395px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	color: #000000;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.middle_title {
+	font-size: 60px;
+	font-family: 'Amatic SC', cursive;
+	color: #FFF;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 0px;
+	position: absolute;
+}
+.middle_title a {
+	text-decoration: none;
+	color: #FFF;
+}
+.middle_title a:hover {
+	color: #f57778;
+	transition: 0.15s ease-out;
+}
+
+/* ----------------------------  MIDDLE_ABOUT_ME  ------------------------------------ */
+.about_me_middle {
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	width: 1520px;
+	height: 880px;
+	color: #000000;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.about_me_middle_face {
+	padding-right:1000px; 
+	padding-bottom: 500px;
+	position: absolute;
+}
+.about_me_middle_name {
+	font-size: 70px;
+	padding-left: 500px;
+	padding-bottom: 600px; 
+	position: absolute;
+}
+.about_me_middle_story {
+	font-size: 40px; 
+	padding-right: 600px;
+	padding-top: 5px;
+	margin-bottom: 70px;
+	text-align: left;
+	position: absolute;
+}
+.about_me_middle_bag {
+	padding-top: 500px;
+	position: absolute;
+}
+
+/* ----------------------------  GALLERY_MAIN_MIDDLE  -------------------------------- */
+.gallery_main_middle_bg {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.gallery_main_middle_text_w {
+	font-size: 100px;
+	margin-top: -440px;
+	margin-left: 130px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+}
+.gallery_main_middle_text_w a {
+	text-decoration: none;
+	color: #FFF;
+}
+.gallery_main_middle_text_w a:hover {
+	color: #f57778;
+	transition: 0.15s ease-out;
+}
+.gallery_main_middle_text_b {
+	font-size: 120px;
+	margin-top: -535px;
+	margin-left: 220px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+}
+.gallery_main_middle_text_b a {
+	text-decoration: none;
+	color: #000;
+}
+.gallery_main_middle_text_b a:hover {
+	color: #FFF;
+	transition: 0.15s ease-out;
+}
+
+/* ----------------------------  GALLERY_BLACK_MIDDLE  -------------------------------- */
+.gallery_black_middle {
+	background-image: url("../img/colors.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	width: 1520px;
+	height: 943px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	color: #000000;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+/* ----------------------------  FOOTER_MAIN  ---------------------------------------- */
+
+.footer {
+	background-image: url("../img/pasek_nadole.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 1920px;
+	height: 120px;
+	color: #000000;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.footer_title {
+	font-size: 50px;
+	font-family: 'Amatic SC', cursive;
+	color: #FFF;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: -50px;
+	position: absolute;
+}
+.footer_facebook {
+	font-size: 30px;
+	margin-left: 15px;
+	margin-right: 20px;
+	margin-top: -40px;
+	transition: 0.2s ease-out;
+}
+.footer_telegram {
+	font-size: 30px;
+	margin-right: 20px;
+	margin-top: -40px;
+}
+.footer_vk {
+	font-size: 30px;
+	margin-right: 20px;
+	margin-top: -40px;
+}
+.footer_instagram {
+	font-size: 30px;
+	margin-right: 20px;
+	margin-top: -40px;
+}
+.footer a {
+	text-decoration: none;
+	color: #FFF;
+}
+.footer a:hover {
+	color: #f57778;
+	transition: 0.15s ease-out;
+}
+
+/* ----------------------------  FOOTER_ABOUT_ME  ---------------------------------- */
+.about_me_footer {
+	background-image: url("../img/pasek_nadole.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 1920px;
+	height: 120px;
+	color: #000000;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
